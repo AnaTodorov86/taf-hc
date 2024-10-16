@@ -39,5 +39,6 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: cypress-failures
-          path: cypress/screenshots/
-          path: cypress/videos/
+          path: |
+            cypress/screenshots/
+            cypress/videos/
